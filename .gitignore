@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+
+# CAP build output and generated artifacts (HR-service)
+HR-service/gen/
+HR-service/_out/
+target/
+
+# CAP local/private config and secrets
+.cdsrc-private.json
+default-env.json
+default-*.json
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite
+*.sqlite-journal
+*.db
+
+# @cap-js/cds-typer generated types
+@cds-models/
+
+# MTA build
+mta_archives/
+*_mta_build_tmp
+*.mtar
+*.mta.tar
+
+# UI5 build output
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp

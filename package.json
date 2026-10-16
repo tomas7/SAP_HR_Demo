@@ -1,0 +1,19 @@
+
+
+{
+  "name": "sapui5-sample",
+  "version": "1.0.0",
+  "description": "Sample SAPUI5 app",
+  "private": true,
+  "engines": {
+    "node": ">=22.6.0",
+    "npm": ">=10.8.2"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^4.0.71"
+  },
+  "scripts": {
+      "start": "ui5 serve",
+      "build": "ui5 build -a --clean-dest"
+  }
+}
